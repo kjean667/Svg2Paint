@@ -10,7 +10,7 @@ var inputFileOption = new Option<FileInfo?>(
 
 var outputFileOption = new Option<FileInfo?>(
     name: "--output",
-    description: "The output file to write command data to.");
+    description: "The output file to write binary command data to.");
 
 var speedOption = new Option<double>(
     name: "--speed",
