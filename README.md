@@ -48,6 +48,7 @@ Input file is an SVG file, preferrably saved from InkScape, that contains line p
 Each "line" drawing command lives its own life from the frame start number and for the duration of the AnimationLength. The delta values are shifted to have small "decimal"-movement.
 
 ## Sample output
+The input test file [TestData/OneIntersectionTest.svg](TestData/OneIntersectionTest.svg) produces the following output:
 
 ```
 00 00 39 00 B9 DD F8 C1
